@@ -20,9 +20,13 @@
 
 
     <script>
-        var nome = window.prompt("Qual é o seu nome?") // vai perguntar o nome
-        var outro_nome = window.prompt("Qual o nome da outra pessoa?")
-        window.alert('O ' + nome + ', acabou de se encontrar com a ' + outro_nome + ' e os dois decidiram sair juntos.') // vai dar a variável nome no alert 
+        var n1 = Number(window.prompt('Digite um número'))
+        var n2 = Number(window.prompt('Digite outro número'))
+        var s = n1 + n2
+        //(number) + (number) para adição
+        //+ para concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`)// se colocar o 's' em parêntese e colocar o   'String'    atrás, acaba  fazendo uma conversão de Number para String
+
     </script>
 </body>
 
